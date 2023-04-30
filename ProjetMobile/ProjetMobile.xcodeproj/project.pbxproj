@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB31F97B29F41C17004D6BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31F97A29F41C17004D6BC3 /* AppDelegate.swift */; };
+		EB31F97D29F41C17004D6BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31F97C29F41C17004D6BC3 /* SceneDelegate.swift */; };
+		EB31F97F29F41C17004D6BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31F97E29F41C17004D6BC3 /* ViewController.swift */; };
+		EB31F98229F41C17004D6BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB31F98029F41C17004D6BC3 /* Main.storyboard */; };
+		EB31F98429F41C18004D6BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB31F98329F41C18004D6BC3 /* Assets.xcassets */; };
+		EB31F98729F41C18004D6BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB31F98529F41C18004D6BC3 /* LaunchScreen.storyboard */; };
+		EB31F98F29F428B6004D6BC3 /* CalculControlleur.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31F98E29F428B6004D6BC3 /* CalculControlleur.swift */; };
+		EB31F99129F465AF004D6BC3 /* DrapeauControlleur.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31F99029F465AF004D6BC3 /* DrapeauControlleur.swift */; };
+		EB31F99329F46854004D6BC3 /* Flag_of_Germany.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F99229F46854004D6BC3 /* Flag_of_Germany.svg.png */; };
+		EB31F99529F46861004D6BC3 /* Flag_of_Italy_(2003–2006).svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F99429F46861004D6BC3 /* Flag_of_Italy_(2003–2006).svg.png */; };
+		EB31F99829F468A7004D6BC3 /* Flag_of_Sweden.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F99729F468A7004D6BC3 /* Flag_of_Sweden.svg.png */; };
+		EB31F99A29F468B0004D6BC3 /* Flag_of_Tunisia.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F99929F468B0004D6BC3 /* Flag_of_Tunisia.svg.png */; };
+		EB31F99F29F468C9004D6BC3 /* Flag_of_Kazakhstan.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F99B29F468C9004D6BC3 /* Flag_of_Kazakhstan.svg.png */; };
+		EB31F9A029F468C9004D6BC3 /* Flag_of_Somalia.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F99C29F468C9004D6BC3 /* Flag_of_Somalia.svg.png */; };
+		EB31F9A129F468C9004D6BC3 /* Flag_of_Estonia.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F99D29F468C9004D6BC3 /* Flag_of_Estonia.svg.png */; };
+		EB31F9A229F468C9004D6BC3 /* Flag_of_Pakistan.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F99E29F468C9004D6BC3 /* Flag_of_Pakistan.svg.png */; };
+		EB31F9A829F468DA004D6BC3 /* Flag_of_Ukraine.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9A329F468DA004D6BC3 /* Flag_of_Ukraine.svg.png */; };
+		EB31F9A929F468DA004D6BC3 /* Flag_of_Russia.svg.webp in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9A429F468DA004D6BC3 /* Flag_of_Russia.svg.webp */; };
+		EB31F9AA29F468DA004D6BC3 /* Flag_of_Spain.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9A529F468DA004D6BC3 /* Flag_of_Spain.svg.png */; };
+		EB31F9AB29F468DA004D6BC3 /* Flag_of_Turkey.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9A629F468DA004D6BC3 /* Flag_of_Turkey.svg.png */; };
+		EB31F9AC29F468DA004D6BC3 /* Flag_of_Algeria.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9A729F468DA004D6BC3 /* Flag_of_Algeria.svg.png */; };
+		EB31F9AE29F4A10C004D6BC3 /* PersonnageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31F9AD29F4A10C004D6BC3 /* PersonnageController.swift */; };
+		EB31F9B429F4A4E4004D6BC3 /* téléchargement.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9AF29F4A4E4004D6BC3 /* téléchargement.jpeg */; };
+		EB31F9B529F4A4E4004D6BC3 /* 320px-Erzsebet_kiralyne_photo_1867-e1674140633587.webp in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9B029F4A4E4004D6BC3 /* 320px-Erzsebet_kiralyne_photo_1867-e1674140633587.webp */; };
+		EB31F9B629F4A4E4004D6BC3 /* charles-X_Vig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9B129F4A4E4004D6BC3 /* charles-X_Vig.jpg */; };
+		EB31F9B729F4A4E4004D6BC3 /* Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9B229F4A4E4004D6BC3 /* Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg */; };
+		EB31F9B829F4A4E4004D6BC3 /* De_Gaulle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9B329F4A4E4004D6BC3 /* De_Gaulle.jpeg */; };
+		EB31F9BF29F4A4F4004D6BC3 /* Elizabeth_I.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9B929F4A4F4004D6BC3 /* Elizabeth_I.jpeg */; };
+		EB31F9C029F4A4F4004D6BC3 /* Habib_Bourguiba_Portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9BA29F4A4F4004D6BC3 /* Habib_Bourguiba_Portrait.jpg */; };
+		EB31F9C129F4A4F4004D6BC3 /* Adolf-Hitler-1933.webp in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9BB29F4A4F4004D6BC3 /* Adolf-Hitler-1933.webp */; };
+		EB31F9C229F4A4F4004D6BC3 /* Louis XVI.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9BC29F4A4F4004D6BC3 /* Louis XVI.jpeg */; };
+		EB31F9C329F4A4F4004D6BC3 /* Portrait_painting_of_Philippe_of_France,_Duke_of_Orléans_holding_a_crown_of_a_child_of_France_(Pierre_Mignard,_Musée_des_Beaux-Arts_de_Bordeaux).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9BD29F4A4F4004D6BC3 /* Portrait_painting_of_Philippe_of_France,_Duke_of_Orléans_holding_a_crown_of_a_child_of_France_(Pierre_Mignard,_Musée_des_Beaux-Arts_de_Bordeaux).jpg */; };
+		EB31F9C429F4A4F4004D6BC3 /* poutine.avif in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9BE29F4A4F4004D6BC3 /* poutine.avif */; };
+		EB31F9C629F4A4FD004D6BC3 /* Marie-Antoinette,_1775_-_Musée_Antoine_Lécuyer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9C529F4A4FD004D6BC3 /* Marie-Antoinette,_1775_-_Musée_Antoine_Lécuyer.jpg */; };
+		EB31F9CA29F4B26D004D6BC3 /* t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9C929F4B26D004D6BC3 /* t.jpg */; };
+		EB31F9CD29F4B877004D6BC3 /* peure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9CB29F4B877004D6BC3 /* peure.jpg */; };
+		EB31F9CE29F4B877004D6BC3 /* f.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9CC29F4B877004D6BC3 /* f.jpeg */; };
+		EB31F9D029F4CFF9004D6BC3 /* bonne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9CF29F4CFF9004D6BC3 /* bonne.mp3 */; };
+		EB31F9D229F4CFFE004D6BC3 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9D129F4CFFE004D6BC3 /* wrong.mp3 */; };
+		EB31F9D429F4D771004D6BC3 /* CRWDApls_Applaudissements 25 50 pers 3 (ID 0814)_LS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9D329F4D771004D6BC3 /* CRWDApls_Applaudissements 25 50 pers 3 (ID 0814)_LS.mp3 */; };
+		EB31F9D629F4D7DF004D6BC3 /* FEL.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9D529F4D7DF004D6BC3 /* FEL.mp3 */; };
+		EB31F9D829F4DB33004D6BC3 /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = EB31F9D729F4DB33004D6BC3 /* A.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB31F97729F41C17004D6BC3 /* ProjetMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB31F97A29F41C17004D6BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB31F97C29F41C17004D6BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB31F97E29F41C17004D6BC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB31F98129F41C17004D6BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB31F98329F41C18004D6BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB31F98629F41C18004D6BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB31F98829F41C18004D6BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB31F98E29F428B6004D6BC3 /* CalculControlleur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculControlleur.swift; sourceTree = "<group>"; };
+		EB31F99029F465AF004D6BC3 /* DrapeauControlleur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrapeauControlleur.swift; sourceTree = "<group>"; };
+		EB31F99229F46854004D6BC3 /* Flag_of_Germany.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Germany.svg.png; sourceTree = "<group>"; };
+		EB31F99429F46861004D6BC3 /* Flag_of_Italy_(2003–2006).svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flag_of_Italy_(2003–2006).svg.png"; sourceTree = "<group>"; };
+		EB31F99729F468A7004D6BC3 /* Flag_of_Sweden.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Sweden.svg.png; sourceTree = "<group>"; };
+		EB31F99929F468B0004D6BC3 /* Flag_of_Tunisia.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Tunisia.svg.png; sourceTree = "<group>"; };
+		EB31F99B29F468C9004D6BC3 /* Flag_of_Kazakhstan.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Kazakhstan.svg.png; sourceTree = "<group>"; };
+		EB31F99C29F468C9004D6BC3 /* Flag_of_Somalia.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Somalia.svg.png; sourceTree = "<group>"; };
+		EB31F99D29F468C9004D6BC3 /* Flag_of_Estonia.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Estonia.svg.png; sourceTree = "<group>"; };
+		EB31F99E29F468C9004D6BC3 /* Flag_of_Pakistan.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Pakistan.svg.png; sourceTree = "<group>"; };
+		EB31F9A329F468DA004D6BC3 /* Flag_of_Ukraine.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Ukraine.svg.png; sourceTree = "<group>"; };
+		EB31F9A429F468DA004D6BC3 /* Flag_of_Russia.svg.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = Flag_of_Russia.svg.webp; sourceTree = "<group>"; };
+		EB31F9A529F468DA004D6BC3 /* Flag_of_Spain.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Spain.svg.png; sourceTree = "<group>"; };
+		EB31F9A629F468DA004D6BC3 /* Flag_of_Turkey.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Turkey.svg.png; sourceTree = "<group>"; };
+		EB31F9A729F468DA004D6BC3 /* Flag_of_Algeria.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_Algeria.svg.png; sourceTree = "<group>"; };
+		EB31F9AD29F4A10C004D6BC3 /* PersonnageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnageController.swift; sourceTree = "<group>"; };
+		EB31F9AF29F4A4E4004D6BC3 /* téléchargement.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "téléchargement.jpeg"; sourceTree = "<group>"; };
+		EB31F9B029F4A4E4004D6BC3 /* 320px-Erzsebet_kiralyne_photo_1867-e1674140633587.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "320px-Erzsebet_kiralyne_photo_1867-e1674140633587.webp"; sourceTree = "<group>"; };
+		EB31F9B129F4A4E4004D6BC3 /* charles-X_Vig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "charles-X_Vig.jpg"; sourceTree = "<group>"; };
+		EB31F9B229F4A4E4004D6BC3 /* Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg"; sourceTree = "<group>"; };
+		EB31F9B329F4A4E4004D6BC3 /* De_Gaulle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = De_Gaulle.jpeg; sourceTree = "<group>"; };
+		EB31F9B929F4A4F4004D6BC3 /* Elizabeth_I.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Elizabeth_I.jpeg; sourceTree = "<group>"; };
+		EB31F9BA29F4A4F4004D6BC3 /* Habib_Bourguiba_Portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Habib_Bourguiba_Portrait.jpg; sourceTree = "<group>"; };
+		EB31F9BB29F4A4F4004D6BC3 /* Adolf-Hitler-1933.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Adolf-Hitler-1933.webp"; sourceTree = "<group>"; };
+		EB31F9BC29F4A4F4004D6BC3 /* Louis XVI.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Louis XVI.jpeg"; sourceTree = "<group>"; };
+		EB31F9BD29F4A4F4004D6BC3 /* Portrait_painting_of_Philippe_of_France,_Duke_of_Orléans_holding_a_crown_of_a_child_of_France_(Pierre_Mignard,_Musée_des_Beaux-Arts_de_Bordeaux).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Portrait_painting_of_Philippe_of_France,_Duke_of_Orléans_holding_a_crown_of_a_child_of_France_(Pierre_Mignard,_Musée_des_Beaux-Arts_de_Bordeaux).jpg"; sourceTree = "<group>"; };
+		EB31F9BE29F4A4F4004D6BC3 /* poutine.avif */ = {isa = PBXFileReference; lastKnownFileType = file; path = poutine.avif; sourceTree = "<group>"; };
+		EB31F9C529F4A4FD004D6BC3 /* Marie-Antoinette,_1775_-_Musée_Antoine_Lécuyer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marie-Antoinette,_1775_-_Musée_Antoine_Lécuyer.jpg"; sourceTree = "<group>"; };
+		EB31F9C929F4B26D004D6BC3 /* t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = t.jpg; sourceTree = "<group>"; };
+		EB31F9CB29F4B877004D6BC3 /* peure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peure.jpg; sourceTree = "<group>"; };
+		EB31F9CC29F4B877004D6BC3 /* f.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f.jpeg; sourceTree = "<group>"; };
+		EB31F9CF29F4CFF9004D6BC3 /* bonne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonne.mp3; sourceTree = "<group>"; };
+		EB31F9D129F4CFFE004D6BC3 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		EB31F9D329F4D771004D6BC3 /* CRWDApls_Applaudissements 25 50 pers 3 (ID 0814)_LS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CRWDApls_Applaudissements 25 50 pers 3 (ID 0814)_LS.mp3"; sourceTree = "<group>"; };
+		EB31F9D529F4D7DF004D6BC3 /* FEL.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FEL.mp3; sourceTree = "<group>"; };
+		EB31F9D729F4DB33004D6BC3 /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB31F97429F41C17004D6BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB31F96E29F41C17004D6BC3 = {
+			isa = PBXGroup;
+			children = (
+				EB31F97929F41C17004D6BC3 /* ProjetMobile */,
+				EB31F97829F41C17004D6BC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB31F97829F41C17004D6BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB31F97729F41C17004D6BC3 /* ProjetMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB31F97929F41C17004D6BC3 /* ProjetMobile */ = {
+			isa = PBXGroup;
+			children = (
+				EB31F9AD29F4A10C004D6BC3 /* PersonnageController.swift */,
+				EB31F9D729F4DB33004D6BC3 /* A.png */,
+				EB31F9D529F4D7DF004D6BC3 /* FEL.mp3 */,
+				EB31F9D329F4D771004D6BC3 /* CRWDApls_Applaudissements 25 50 pers 3 (ID 0814)_LS.mp3 */,
+				EB31F9D129F4CFFE004D6BC3 /* wrong.mp3 */,
+				EB31F9CF29F4CFF9004D6BC3 /* bonne.mp3 */,
+				EB31F99629F4686D004D6BC3 /* imageDrapeau */,
+				EB31F97A29F41C17004D6BC3 /* AppDelegate.swift */,
+				EB31F97C29F41C17004D6BC3 /* SceneDelegate.swift */,
+				EB31F97E29F41C17004D6BC3 /* ViewController.swift */,
+				EB31F98029F41C17004D6BC3 /* Main.storyboard */,
+				EB31F98E29F428B6004D6BC3 /* CalculControlleur.swift */,
+				EB31F98329F41C18004D6BC3 /* Assets.xcassets */,
+				EB31F98529F41C18004D6BC3 /* LaunchScreen.storyboard */,
+				EB31F98829F41C18004D6BC3 /* Info.plist */,
+				EB31F99029F465AF004D6BC3 /* DrapeauControlleur.swift */,
+			);
+			path = ProjetMobile;
+			sourceTree = "<group>";
+		};
+		EB31F99629F4686D004D6BC3 /* imageDrapeau */ = {
+			isa = PBXGroup;
+			children = (
+				EB31F9BB29F4A4F4004D6BC3 /* Adolf-Hitler-1933.webp */,
+				EB31F9B929F4A4F4004D6BC3 /* Elizabeth_I.jpeg */,
+				EB31F9BA29F4A4F4004D6BC3 /* Habib_Bourguiba_Portrait.jpg */,
+				EB31F9BC29F4A4F4004D6BC3 /* Louis XVI.jpeg */,
+				EB31F9BD29F4A4F4004D6BC3 /* Portrait_painting_of_Philippe_of_France,_Duke_of_Orléans_holding_a_crown_of_a_child_of_France_(Pierre_Mignard,_Musée_des_Beaux-Arts_de_Bordeaux).jpg */,
+				EB31F9CC29F4B877004D6BC3 /* f.jpeg */,
+				EB31F9CB29F4B877004D6BC3 /* peure.jpg */,
+				EB31F9BE29F4A4F4004D6BC3 /* poutine.avif */,
+				EB31F9B029F4A4E4004D6BC3 /* 320px-Erzsebet_kiralyne_photo_1867-e1674140633587.webp */,
+				EB31F9B129F4A4E4004D6BC3 /* charles-X_Vig.jpg */,
+				EB31F9C529F4A4FD004D6BC3 /* Marie-Antoinette,_1775_-_Musée_Antoine_Lécuyer.jpg */,
+				EB31F9B329F4A4E4004D6BC3 /* De_Gaulle.jpeg */,
+				EB31F9C929F4B26D004D6BC3 /* t.jpg */,
+				EB31F9B229F4A4E4004D6BC3 /* Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg */,
+				EB31F9AF29F4A4E4004D6BC3 /* téléchargement.jpeg */,
+				EB31F99D29F468C9004D6BC3 /* Flag_of_Estonia.svg.png */,
+				EB31F99B29F468C9004D6BC3 /* Flag_of_Kazakhstan.svg.png */,
+				EB31F9A729F468DA004D6BC3 /* Flag_of_Algeria.svg.png */,
+				EB31F9A429F468DA004D6BC3 /* Flag_of_Russia.svg.webp */,
+				EB31F9A529F468DA004D6BC3 /* Flag_of_Spain.svg.png */,
+				EB31F9A629F468DA004D6BC3 /* Flag_of_Turkey.svg.png */,
+				EB31F9A329F468DA004D6BC3 /* Flag_of_Ukraine.svg.png */,
+				EB31F99E29F468C9004D6BC3 /* Flag_of_Pakistan.svg.png */,
+				EB31F99C29F468C9004D6BC3 /* Flag_of_Somalia.svg.png */,
+				EB31F99929F468B0004D6BC3 /* Flag_of_Tunisia.svg.png */,
+				EB31F99429F46861004D6BC3 /* Flag_of_Italy_(2003–2006).svg.png */,
+				EB31F99729F468A7004D6BC3 /* Flag_of_Sweden.svg.png */,
+				EB31F99229F46854004D6BC3 /* Flag_of_Germany.svg.png */,
+			);
+			path = imageDrapeau;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB31F97629F41C17004D6BC3 /* ProjetMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB31F98B29F41C18004D6BC3 /* Build configuration list for PBXNativeTarget "ProjetMobile" */;
+			buildPhases = (
+				EB31F97329F41C17004D6BC3 /* Sources */,
+				EB31F97429F41C17004D6BC3 /* Frameworks */,
+				EB31F97529F41C17004D6BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjetMobile;
+			productName = ProjetMobile;
+			productReference = EB31F97729F41C17004D6BC3 /* ProjetMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB31F96F29F41C17004D6BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EB31F97629F41C17004D6BC3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = EB31F97229F41C17004D6BC3 /* Build configuration list for PBXProject "ProjetMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB31F96E29F41C17004D6BC3;
+			productRefGroup = EB31F97829F41C17004D6BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB31F97629F41C17004D6BC3 /* ProjetMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB31F97529F41C17004D6BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB31F9CA29F4B26D004D6BC3 /* t.jpg in Resources */,
+				EB31F9AA29F468DA004D6BC3 /* Flag_of_Spain.svg.png in Resources */,
+				EB31F9A229F468C9004D6BC3 /* Flag_of_Pakistan.svg.png in Resources */,
+				EB31F9C129F4A4F4004D6BC3 /* Adolf-Hitler-1933.webp in Resources */,
+				EB31F9D229F4CFFE004D6BC3 /* wrong.mp3 in Resources */,
+				EB31F9A929F468DA004D6BC3 /* Flag_of_Russia.svg.webp in Resources */,
+				EB31F99F29F468C9004D6BC3 /* Flag_of_Kazakhstan.svg.png in Resources */,
+				EB31F99829F468A7004D6BC3 /* Flag_of_Sweden.svg.png in Resources */,
+				EB31F99329F46854004D6BC3 /* Flag_of_Germany.svg.png in Resources */,
+				EB31F9C029F4A4F4004D6BC3 /* Habib_Bourguiba_Portrait.jpg in Resources */,
+				EB31F9A829F468DA004D6BC3 /* Flag_of_Ukraine.svg.png in Resources */,
+				EB31F9CE29F4B877004D6BC3 /* f.jpeg in Resources */,
+				EB31F9D429F4D771004D6BC3 /* CRWDApls_Applaudissements 25 50 pers 3 (ID 0814)_LS.mp3 in Resources */,
+				EB31F9B729F4A4E4004D6BC3 /* Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg in Resources */,
+				EB31F9B529F4A4E4004D6BC3 /* 320px-Erzsebet_kiralyne_photo_1867-e1674140633587.webp in Resources */,
+				EB31F98729F41C18004D6BC3 /* LaunchScreen.storyboard in Resources */,
+				EB31F9C229F4A4F4004D6BC3 /* Louis XVI.jpeg in Resources */,
+				EB31F9B429F4A4E4004D6BC3 /* téléchargement.jpeg in Resources */,
+				EB31F9A029F468C9004D6BC3 /* Flag_of_Somalia.svg.png in Resources */,
+				EB31F98429F41C18004D6BC3 /* Assets.xcassets in Resources */,
+				EB31F9CD29F4B877004D6BC3 /* peure.jpg in Resources */,
+				EB31F9AC29F468DA004D6BC3 /* Flag_of_Algeria.svg.png in Resources */,
+				EB31F9C629F4A4FD004D6BC3 /* Marie-Antoinette,_1775_-_Musée_Antoine_Lécuyer.jpg in Resources */,
+				EB31F99A29F468B0004D6BC3 /* Flag_of_Tunisia.svg.png in Resources */,
+				EB31F9B629F4A4E4004D6BC3 /* charles-X_Vig.jpg in Resources */,
+				EB31F9C429F4A4F4004D6BC3 /* poutine.avif in Resources */,
+				EB31F9BF29F4A4F4004D6BC3 /* Elizabeth_I.jpeg in Resources */,
+				EB31F9D629F4D7DF004D6BC3 /* FEL.mp3 in Resources */,
+				EB31F9D029F4CFF9004D6BC3 /* bonne.mp3 in Resources */,
+				EB31F98229F41C17004D6BC3 /* Main.storyboard in Resources */,
+				EB31F9A129F468C9004D6BC3 /* Flag_of_Estonia.svg.png in Resources */,
+				EB31F99529F46861004D6BC3 /* Flag_of_Italy_(2003–2006).svg.png in Resources */,
+				EB31F9C329F4A4F4004D6BC3 /* Portrait_painting_of_Philippe_of_France,_Duke_of_Orléans_holding_a_crown_of_a_child_of_France_(Pierre_Mignard,_Musée_des_Beaux-Arts_de_Bordeaux).jpg in Resources */,
+				EB31F9D829F4DB33004D6BC3 /* A.png in Resources */,
+				EB31F9B829F4A4E4004D6BC3 /* De_Gaulle.jpeg in Resources */,
+				EB31F9AB29F468DA004D6BC3 /* Flag_of_Turkey.svg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB31F97329F41C17004D6BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB31F99129F465AF004D6BC3 /* DrapeauControlleur.swift in Sources */,
+				EB31F9AE29F4A10C004D6BC3 /* PersonnageController.swift in Sources */,
+				EB31F97F29F41C17004D6BC3 /* ViewController.swift in Sources */,
+				EB31F97B29F41C17004D6BC3 /* AppDelegate.swift in Sources */,
+				EB31F97D29F41C17004D6BC3 /* SceneDelegate.swift in Sources */,
+				EB31F98F29F428B6004D6BC3 /* CalculControlleur.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB31F98029F41C17004D6BC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB31F98129F41C17004D6BC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB31F98529F41C18004D6BC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB31F98629F41C18004D6BC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB31F98929F41C18004D6BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB31F98A29F41C18004D6BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB31F98C29F41C18004D6BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjetMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.univ-lyon2.icom.ProjetMobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB31F98D29F41C18004D6BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjetMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.univ-lyon2.icom.ProjetMobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB31F97229F41C17004D6BC3 /* Build configuration list for PBXProject "ProjetMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB31F98929F41C18004D6BC3 /* Debug */,
+				EB31F98A29F41C18004D6BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB31F98B29F41C18004D6BC3 /* Build configuration list for PBXNativeTarget "ProjetMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB31F98C29F41C18004D6BC3 /* Debug */,
+				EB31F98D29F41C18004D6BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB31F96F29F41C17004D6BC3 /* Project object */;
+}
